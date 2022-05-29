@@ -1,0 +1,11 @@
+{% extends "root/base.html" %}
+
+{% block title %}
+  <title>Home</title>
+{% endblock title %}
+
+{% block content%}
+  <h1 class="display-3 text-center" style="margin-top: 10rem;">Store Password Safely!
+    <a class="btn btn-primary" href="{% url 'password-create' %}" style="margin: 2.5px;font-size: 12px;" role="button">Store Now</a>
+  </h1>
+{% endblock content%}
